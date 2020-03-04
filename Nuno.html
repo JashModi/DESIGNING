@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUNO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        li {
+            display: inline;
+            padding: 10px;
+        }
+        
+        h1 {
+            position: absolute;
+            top: 38%;
+            left: 31%;
+            font-size: 90px;
+            margin: 0;
+            color: white;
+        }
+        
+        h2 {
+            position: absolute;
+            top: 50%;
+            left: 38%;
+            font-size: 40px;
+            margin: 0;
+            color: white;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .text-right {
+            display: inline-block;
+            float: right;
+        }
+        
+        .logo {
+            padding-top: 20px;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        
+        .button {
+            border: 1px solid white;
+            position: absolute;
+            top: 57%;
+            left: 48%;
+            font-size: 20px;
+            padding: 10px;
+            margin: 0;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        
+        .button:hover {
+            background-color: white;
+            color: black;
+        }
+        
+        nav {
+            position: fixed;
+            font-size: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            top: 0;
+        }
+        
+        h3 {
+            text-align: center;
+            font-size: 60px;
+            color: rgb(0, 20, 9);
+        }
+        
+        i.fa {
+            color: #1ebba3;
+        }
+        
+        .bootstrap {
+            text-align: center;
+        }
+        
+        .course {
+            border: 1px solid #1ebba3;
+            color: white;
+            background-color: #1ebba3;
+            font-size: 20px;
+            padding: 18px;
+            margin: 0;
+        }
+        
+        .course:hover {
+            background-color: #189582
+        }
+        
+        pre {
+            text-align: center;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h4 {
+            text-align: center;
+            font-size: 50px;
+        }
+        
+        h5 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            letter-spacing: 2px;
+            font-size: 25px;
+        }
+        
+        .feature {
+            padding-top: 5px;
+            background-color: rgb(194, 194, 194);
+        }
+        
+        .divider {
+            color: #1ebba3;
+            margin-left: 48%;
+            width: 60px;
+            border: 3px solid #1ebba3;
+        }
+        
+        .pos {
+            position: relative;
+        }
+        
+        .abs {
+            position: absolute;
+        }
+        
+        .home {
+            margin: 0;
+            height: 100vh;
+            width: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2017/08/06/12/21/laptop-2592008__340.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        
+        .feature-wrap {
+            padding: 20px 50px;
+        }
+        
+        .build {
+            margin: 0;
+            height: 600px;
+            width: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2016/11/23/13/40/iphone-1852901__340.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            padding: 112px 32px;
+        }
+        
+        h6 {
+            left: 46%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://kouta1612.github.io/LP_Product2/img/nuno.png" alt="" height="40px" width="150px">
+        </div>
+        <div class="text-right">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li> <a href="">Course</a>
+                </li>
+                <li> <a href="">Features</a>
+                </li>
+                <li> <a href="">Resources</a>
+                </li>
+                <li> <a href="">Clients</a>
+                </li>
+                <li> <a href="">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div class="home">
+            <h1>
+                WELCOME TO NUNO
+            </h1>
+            <h2>
+                UDEMY BOOTSTRAP 4 COURSE
+            </h2>
+            <a class="button" href="">GET STARTED</a>
+        </div>
+    </section>
+    <section style="height: 300px;">
+        <div>
+            <h3>
+                Nuno Thema Advanced Bootstrap Cource
+            </h3>
+            <pre>
+                Learn Bootstrap by creating an advanced Bootstrap 4 Responsive Website Template from scratch, with no steps skipped!
+            </pre>
+            <div class="bootstrap"><a class="course" href="">BOOTSTRAP COURSE</a></div>
+        </div>
+    </section>
+    <section class="feature">
+        <div>
+            <h4 id="headDemo">
+                FEATURES
+            </h4>
+        </div>
+        <div class="divider"></div>
+        <div class="feature-wrap">
+
+            <div class="icons" style="display: inline-block; text-align: center;width: 33%;">
+                <div style="display: inline-block;">
+                    <i class="fa fa-play-circle fa-4x" aria-hidden="true"></i>
+                    <h5>CUSTOM ANIMATION</h5>
+                    <p style="font-size: 19px; ">Animate.css and Waypoints.js allow for smooth <br> animations scrolling down the sites.</p>
+                </div>
+            </div>
+            <div class="icons" style="display: inline-block; text-align: center;width: 33%;">
+                <div style="display: inline-block;">
+                    <i class="fa fa-play-circle fa-4x" aria-hidden="true"></i>
+                    <h5>CONTENT SLIDER</h5>
+                    <p style="font-size: 19px; ">Owl.Carousel.js makes navigating content <br> sliders seamless with it's content carousel <br> navigation.</p>
+                </div>
+            </div>
+            <div class="icons" style="display: inline-block; text-align: center;width: 33%;">
+                <div style="display: inline-block;">
+                    <i class="fa fa-play-circle fa-4x" aria-hidden="true"></i>
+                    <h5>CONTACT FORM</h5>
+                    <p style="font-size: 19px; ">The Bootstrap HTML form will send directly to <br> your email address using PHPMailer.php</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="build">
+        <h6>
+            BUILD WITH CARE
+        </h6>
+    </section>
+</body>
+
+</html>
